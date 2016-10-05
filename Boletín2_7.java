@@ -18,7 +18,7 @@ public class Boletín2_7 {
         t= t*12;
         i= 1/1200;
         
-       JOptionPane.showMessageDialog(null, " renda mensual do seu Prestamo "+ (n*));
+       JOptionPane.showMessageDialog(null, " renda mensual do seu Prestamo "+ (n*m)*i /(m-1));
     }
     
 }
