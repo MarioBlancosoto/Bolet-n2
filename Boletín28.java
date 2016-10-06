@@ -13,7 +13,7 @@ public class Boletín28 {
        
       grados = Float.parseFloat(JOptionPane.showInputDialog("introduzca los grados"));
       JOptionPane.showMessageDialog(null, "la cantidad de grados kelvin es " + (grados+kelvin) );
-      JOptionPane.showMessageDialog(null,"y los farnheit " + (grados*(37*9)/5));
+      JOptionPane.showMessageDialog(null,"y los farnheit " + (grados*(9/5+32));
       
     }
     
