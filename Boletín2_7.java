@@ -14,10 +14,10 @@ public class Boletín2_7 {
         n = Float.parseFloat(JOptionPane.showInputDialog(" introduzca o nominal"));
         i = Float.parseFloat(JOptionPane.showInputDialog(" introduzca o interés"));
         t = Float.parseFloat(JOptionPane.showInputDialog(" introduzca o número de anos"));
-        
+       
         t= t*12;
         i= 1/1200;
-        
+        m = Math.pow((1+i),t);
         JOptionPane.showMessageDialog(null,"A renda mensual e "+ ( n*m*i/(m)-1));
     }
     
